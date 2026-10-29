@@ -46,7 +46,8 @@ public class HealthBase : MonoBehaviour
     private void kill()
     {
 
-        _isDead = true;
+        _isDead = true; 
+
         if (destroyOnKill)
         {
 

@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public Vector2 friction = new Vector2(.1f, 0);
     public float speed;
     public float speedRun;
-    public float forceJump = 2;
+    public float forceJump = 8;
 
 
     [Header("Animation setup")]
@@ -22,12 +22,14 @@ public class Player : MonoBehaviour
 
 
     private float _currentSpeed;
+
     
+
 
     private void Update()
     {
-        HandleJump();
         HandleMoviment();
+        HandleJump();
     }
 
     private void HandleMoviment()
