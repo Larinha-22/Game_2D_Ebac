@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 
 
     private float _currentSpeed;
-    private bool _isRunning = false;
+    
 
     private void Update()
     {
